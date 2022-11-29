@@ -4,6 +4,8 @@ const app = express()
 
 const router = require('./controllers/places')
 
+app.use(express.urlencoded({ extended: true }))
+
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 
