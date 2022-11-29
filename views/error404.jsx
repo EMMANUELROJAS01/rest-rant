@@ -7,6 +7,12 @@ function error404 () {
           <main>
               <h1>404: PAGE NOT FOUND</h1>
               <p>Oops, sorry, we can't find this page!</p>
+              <div>
+                <img src='/images/sad-pug.jpg' alt='pug covered in blanket'/>
+                <div>
+                    Photo by <a href='https://unsplash.com/@matthewhenry'> Matthew Henry</a> on <a href='https://unsplash.com/'> Unsplash</a>
+                </div>
+              </div>
           </main>
       </Def>
     )
