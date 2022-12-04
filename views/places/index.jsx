@@ -4,7 +4,7 @@ const Def = require('../default')
 function index (data) {
     let placesFormatted = data.places.map((place) => {
         return (
-          <div className="col-sm-6">
+          <div className="col-sm-3">
             <h2>H-Thai-ML</h2>
             <p className="text-align">
               Thai, Pan-Asian
@@ -15,7 +15,7 @@ function index (data) {
             </p>
 
                 <h2>Coding Cat Cafe</h2>
-            <p className = 'text align'>
+            <p className= 'text-align'>
                 Coffee, Bakery
             </p>
             <img src='/images/coffee.jpg' alt='Coding Cat Cafe'/>
